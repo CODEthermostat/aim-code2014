@@ -52,6 +52,7 @@
                 <div class="people-data">
 					<p>{{ $person['value'] }}</p>
 					<p>{{ $person['age'] }}</p>
+					<p>{{ $person['gender'] }}</p>
                 </div>
                 @endforeach
 

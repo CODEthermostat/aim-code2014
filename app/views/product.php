@@ -53,11 +53,11 @@
 
                     <ul>
 
-                    <li><a href="place.html"><img src="images/location.png"</a></li>
-                    <li><a href="people.html"><img src="images/people.png"</a></li>
-                    <li><a href="product.html"><img src="images/product.png"</a></li>
-                    <li><a href="price.html"><img src="images/price.png"</a></li>
-                    <li><a href="advertising.html"><img src="images/marketing.png"</a></li>
+                    <li><a href="place"><img src="images/location.png"</a></li>
+                    <li><a href="people"><img src="images/people.png"</a></li>
+                    <li><a href="product"><img src="images/product.png"</a></li>
+                    <li><a href="price"><img src="images/price.png"</a></li>
+                    <li><a href="advertising"><img src="images/marketing.png"</a></li>
 
                     </ul>    
 

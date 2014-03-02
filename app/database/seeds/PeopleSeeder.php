@@ -46,16 +46,20 @@ class PeopleSeeder extends Seeder {
 			$value_attr = $series_obs->ObsValue->attributes();
 			
 			$value = array();
-			$value['location'] = $parsed_geo[trim($geo_attr['value']->__toString())];
 			$value['age'] = $parsed_age_gender[trim($age_gender_attr['value']->__toString())];
+			if ( !is_numeric(substr($value['age'], 0, 1)) ) {
+				continue;
+			}
 			if ((int)trim($age_gender_attr['value']->__toString()) < 22) {
 				// In the structure xml, values >= 22 means female
 				$value['gender'] = 'Male';
 			} else {
 				$value['gender'] = 'Female';
 			}
-			$value['value'] = trim($value_attr['value']->__toString());
-			$parsed_people[] = (int)$value;
+			$value['location'] = $parsed_geo[trim($geo_attr['value']->__toString())];
+			$value['value'] = (int)trim($value_attr['value']->__toString());
+
+			$parsed_people[] = $value;
 		}
 
 		return $parsed_people;

@@ -11,14 +11,29 @@
 |
 */
 
-Route::get('/people/{location?}', array('as' => 'people.location', 'uses' => 'PeopleController@getPeople'));
+Route::get('/advertising', function()
+{
+	return View::make('advertising');
+});
 
 Route::get('/', function()
 {
 	return View::make('index');
 });
 
+Route::get('/people/{location?}', array('as' => 'people.location', 'uses' => 'PeopleController@getPeople'));
+
 Route::get('/place', function()
 {
 	return View::make('place');
+});
+
+Route::get('/price', function()
+{
+	return View::make('price');
+});
+
+Route::get('/product', function()
+{
+	return View::make('product');
 });
