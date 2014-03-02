@@ -15,7 +15,7 @@ class ProductController extends BaseController {
 			
 			$people = Person::where('location', '=', $fsa)->take(1)->orderBy('value', 'desc')->get()->toArray();
 			if (count($people)> 0) {
-				$age_exploded = explode(' ', $people['age']);
+				$age_exploded = explode(' ', $people[0]['age']);
 				$lower = (int)$age_exploded[0];
 				$upper = (int)$age_exploded[2];
 

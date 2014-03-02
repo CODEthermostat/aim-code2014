@@ -17,7 +17,7 @@
  
                <div class="front">
 
-                    <a href="place.html" style="text-decoration:none"><img src="images/fronticon.png"></a>
+                    <a href="place" style="text-decoration:none"><img src="images/fronticon.png"></a>
                     <p style="font-family: 'Muli', sans-serif; color:#4f4f4f; font-size:8px; margin-top:">MARKET RESEARCH REDEFINED</p>
 
                </div>

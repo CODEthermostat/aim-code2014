@@ -10,7 +10,6 @@
                 <link type="text/css" href="css/bootstrap.css">
                 <link type="text/css" href="css/flat-ui.css">
 
-                 <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
                 <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
                 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
                 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>

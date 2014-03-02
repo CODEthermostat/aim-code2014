@@ -28,11 +28,12 @@
                                
                                          <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif;; font-size:12px;">
                                        
-                                                <li class = "active" style="text-align:center;"><a href = "place.html">HOME</a></li>
+                                                <li class = "active" style="text-align:center;"><a href = "place">HOME</a></li>
                                                
                                                 </li>
-                                                <li style="text-align:center;"><a href = "about.html">ABOUT</a></li>
-                                                <li style="text-align:center;"><a href = "contact.html">CONTACT</a></li>
+                                                <li style="text-align:center; "><a href = "explain">EXPLAIN</a></li>
+                                                <li style="text-align:center;"><a href = "about">ABOUT</a></li>
+                                                <li style="text-align:center;"><a href = "contact">CONTACT</a></li>
                                        
                                         </ul>
                                

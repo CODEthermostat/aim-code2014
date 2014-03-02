@@ -11,6 +11,21 @@
 |
 */
 
+Route::get('/about', function()
+{
+	return View::make('about');
+});
+
+Route::get('/contact', function()
+{
+	return View::make('contact');
+});
+
+Route::get('/explain', function()
+{
+	return View::make('secondpage');
+});
+
 Route::get('/place', function()
 {
 	return View::make('place');
