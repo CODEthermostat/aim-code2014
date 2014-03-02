@@ -72,7 +72,7 @@
                     	@if ($location != null)
                     		<a href="people?location={{$location}}">
                     	@else
-                    		<a href="people/">
+                    		<a href="people">
                     	@endif
                     	<img src="images/people.png"</a></li>
                     <li>

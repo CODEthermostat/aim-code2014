@@ -28,9 +28,7 @@
                                
                                          <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif;; font-size:12px;">
                                        
-                                                <li class = "active" style="text-align:center;"><a href = "place.html">HOME</a></li>
-                                               
-                                                </li>
+                                                <li style="text-align:center;"><a href = "place.html">HOME</a></li>
                                                 <li style="text-align:center; "><a href = "explain">EXPLAIN</a></li>
                                                 <li style="text-align:center;"><a href = "about">ABOUT</a></li>
                                                 <li style="text-align:center;"><a href = "contact">CONTACT</a></li>
