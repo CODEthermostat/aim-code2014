@@ -11,11 +11,16 @@ class PeopleController extends BaseController {
 		if (preg_match($postal_code, $location)) {
 			$fsa = substr($location, 0, 3);
 			
+			echo "<pre>";
+			var_dump(Person::all()->toArray());
+			echo "</pre>";
 			$people = Person::where('location', '=', $fsa)->take(5)->orderBy('value', 'desc')->get();
 			
-			return View::make('people')->with('people', $people->toArray());
+			return View::make('people')->with('people', $people->toArray())
+										->with('location', $location);
 		} else {
-			return View::make('people')->with('people', array());
+			return View::make('people')->with('people', array())
+										->with('location', $location);
 		}
 	}
 }

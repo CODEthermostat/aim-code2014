@@ -61,8 +61,20 @@
                     <ul>
 
                     <li><a href="place"><img src="images/location.png"</a></li>
-                    <li><a href="people"><img src="images/people.png"</a></li>
-                    <li><a href="product"><img src="images/product.png"</a></li>
+                    <li>
+                    	@if ($location != null)
+                    		<a href="people?location={{$location}}">
+                    	@else
+                    		<a href="people/">
+                    	@endif
+                    	<img src="images/people.png"</a></li>
+                    <li>
+                    	@if (count($people) > 0)
+                    		<a href="product?location={{$location}}">
+                    	@else
+                    		<a href="product?location=all">
+                    	@endif
+                    <img src="images/product.png"</a></li>
                     <li><a href="price"><img src="images/price.png"</a></li>
                     <li><a href="advertising"><img src="images/marketing.png"</a></li>
 
