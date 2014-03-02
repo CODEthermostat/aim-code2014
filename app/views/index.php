@@ -16,7 +16,7 @@
  
                <div id="front">
 
-                    <a href="place.html" style="text-decoration:none"><h3 style="font-family: 'Muli', sans-serif; color:#FFFFFF; font-size:110px; text-align:center;">AIM</h3></a>
+                    <a href="/place" style="text-decoration:none"><h3 style="font-family: 'Muli', sans-serif; color:#FFFFFF; font-size:110px; text-align:center;">AIM</h3></a>
                     <p style="font-family: 'Muli', sans-serif; color:#FFFFFF; font-size:12px; text-align:center; margin-top:-130px">MARKET RESEARCH REDEFINED</p>
 
                </div>

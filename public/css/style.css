@@ -43,7 +43,12 @@ input {
 
 }
 
-
+.people-data {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
 
 .bottomicons li {
 	display:inline;
