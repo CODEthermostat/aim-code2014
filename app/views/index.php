@@ -4,6 +4,7 @@
 <html>
         <head>
                 <title>AIM</title>
+                <author="Paula&Bill&Spike&Wil">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link type="text/css" href = "css/style.css" rel = "stylesheet">
                 <link type="text/css" href="css/bootstrap-theme.css">
@@ -12,15 +13,19 @@
 
                 <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
         </head>
-        <body style="background-image:url(images/front.jpg); background-size:cover;">
+        <body>
  
-               <div id="front">
+               <div class="front">
 
-                    <a href="/place" style="text-decoration:none"><h3 style="font-family: 'Muli', sans-serif; color:#FFFFFF; font-size:110px; text-align:center;">AIM</h3></a>
-                    <p style="font-family: 'Muli', sans-serif; color:#FFFFFF; font-size:12px; text-align:center; margin-top:-130px">MARKET RESEARCH REDEFINED</p>
+                    <a href="place.html" style="text-decoration:none"><img src="images/fronticon.png"></a>
+                    <p style="font-family: 'Muli', sans-serif; color:#4f4f4f; font-size:8px; margin-top:">MARKET RESEARCH REDEFINED</p>
 
                </div>
 
                
         </body>
+
+
+                <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src = "js/bootstrap.js"></script>
 </html>

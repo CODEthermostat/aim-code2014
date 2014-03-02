@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Marketing</title>
+                <title>Customers</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/style.css" rel = "stylesheet">
@@ -44,10 +44,19 @@
 
 
                 <div class="location">
-                    <img src="images/marketing.png">
-                    <h3>MARKET AUDIENCE<h3>
+                    <img src="images/people.png">
+                    <h3>AUDIENCE<h3>
 
-                </div><div class="bottomicons">
+                </div>
+                @foreach($people as $person)
+                <div class="people-data">
+					<p>{{ $person['value'] }}</p>
+					<p>{{ $person['age'] }}</p>
+					<p>{{ $person['gender'] }}</p>
+                </div>
+                @endforeach
+
+                <div class="bottomicons">
 
                     <ul>
 
@@ -61,12 +70,13 @@
 
                 </div>
 
- 
-                
-        </body>
+
+
 
                 <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                 <script src = "js/bootstrap.js"></script>
                
-      
+        </body>
+
+
 </html>

@@ -30,10 +30,10 @@
                                 <div class = "collapse navbar-collapse navHeaderCollapse">
                                
                                         <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif; font-size:12px;">
-                                       
-                                                <li class = "active" style="text-align:center;"><a href = "#">HOME</a></li>
-                                                <li style="text-align:center; "><a href = "#">ABOUT</a></li>
-                                                <li style="text-align:center;"><a href = "#">CONTACT</a></li>
+                                    
+                                                <li class = "active" style="text-align:center;"><a href = "place.html">HOME</a></li>
+                                                <li style="text-align:center; "><a href = "about.html">ABOUT</a></li>
+                                                <li style="text-align:center;"><a href = "contact.html">CONTACT</a></li>
                                        
                                         </ul>
                                
@@ -60,7 +60,7 @@
                         <form action="/people" class="well form-search" style="font-family:'Roboto', sans-serif;">
 
                              <input name="location" type="text" class="span3 search-query" style="font-size:14px" placeholder="postal code..."/></br></br>
-                             <button class="btn" style="font-size:12px; color:#69696969">Search</button>
+                             <button class="btn" style="font-size:12px; color:#4f4f4f">Search</button>
 
                         </form>
 
@@ -69,11 +69,11 @@
 
                     <ul>
 
-                    <li><a href="place"><img src="images/location.png"</a></li>
-                    <li><a href="people"><img src="images/people.png"</a></li>
-                    <li><a href="product"><img src="images/product.png"</a></li>
-                    <li><a href="price"><img src="images/price.png"</a></li>
-                    <li><a href="advertising"><img src="images/marketing.png"</a></li>
+                    <li><a href="place.html"><img src="images/location.png"</a></li>
+                    <li><a href="people.html"><img src="images/people.png"</a></li>
+                    <li><a href="product.html"><img src="images/product.png"</a></li>
+                    <li><a href="price.html"><img src="images/price.png"</a></li>
+                    <li><a href="advertising.html"><img src="images/marketing.png"</a></li>
 
                     </ul>    
 

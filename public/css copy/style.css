@@ -1,5 +1,19 @@
 /**Page Structure**/
 
+.front {
+	text-align:center;
+	margin-top:50px;
+}
+
+.front h3 {
+	margin-top:-10px;
+}
+
+.front img {
+	width:120px;
+	margin-top:100px;
+}
+
 .location {
 
 	font-family: 'Roboto', sans-serif;
@@ -39,7 +53,7 @@ input {
 	-moz-border-radius: 2px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	padding:5px 30px;
+	padding:5px 20px;
 
 }
 
@@ -65,4 +79,40 @@ input {
 .bottomicons img {
 	width:40px;
 	height:auto;
+}
+
+
+.contact {
+	text-align:center;
+}
+
+.about img {
+	width:120px;
+	height:auto;
+	text-align:center;
+}
+
+.about li {
+	list-style-type:none;
+	text-align:center;
+	padding-right:50px;
+}
+
+.about p {
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.explain img {
+	width:80px;
+
+}
+
+.explain li {
+
+	list-style-type: none;
+	text-align:center;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
 }

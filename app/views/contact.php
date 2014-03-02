@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Bootstrap 3</title>
+                <title>Contact Page</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/style.css" rel = "stylesheet">
@@ -28,11 +28,11 @@
                                
                                          <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif;; font-size:12px;">
                                        
-                                                <li class = "active" style="text-align:center;"><a href = "#">HOME</a></li>
+                                                <li class = "active" style="text-align:center;"><a href = "place.html">HOME</a></li>
                                                
                                                 </li>
-                                                <li style="text-align:center;"><a href = "#">ABOUT</a></li>
-                                                <li style="text-align:center;"><a href = "#">CONTACT</a></li>
+                                                <li style="text-align:center;"><a href = "about.html">ABOUT</a></li>
+                                                <li style="text-align:center;"><a href = "contact.html">CONTACT</a></li>
                                        
                                         </ul>
                                
@@ -44,39 +44,31 @@
 
 
                 <div class="location">
-                    <img src="images/people.png">
-                    <h3>AUDIENCE<h3>
+                    <img src="images/contact.png">
+                    <h3>CONTACT<h3>
 
-                </div>
-                @foreach($people as $person)
-                <div class="people-data">
-					<p>{{ $person['value'] }}</p>
-					<p>{{ $person['age'] }}</p>
-					<p>{{ $person['gender'] }}</p>
-                </div>
-                @endforeach
+    </br></br>
 
-                <div class="bottomicons">
+    <div class="contact">
+<!-- Do not change the code! -->
+<a id="foxyform_embed_link_529151" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=529151&sec_hash=dbc2adbebc8&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! -->
 
-                    <ul>
-
-                    <li><a href="place"><img src="images/location.png"</a></li>
-                    <li><a href="people"><img src="images/people.png"</a></li>
-                    <li><a href="product"><img src="images/product.png"</a></li>
-                    <li><a href="price"><img src="images/price.png"</a></li>
-                    <li><a href="advertising"><img src="images/marketing.png"</a></li>
-
-                    </ul>    
-
-                </div>
-
-
-
+ 
+               
+               
+        </body>
 
                 <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                 <script src = "js/bootstrap.js"></script>
-               
-        </body>
 
 
 </html>
