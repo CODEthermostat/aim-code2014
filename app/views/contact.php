@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Product</title>
+                <title>Contact Page</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/style.css" rel = "stylesheet">
@@ -24,7 +24,7 @@
                                         <span class = "icon-bar"></span>
                                 </button>
                                
-                                <div class = "collapse navbar-collapse navHeaderCollapse" style="">
+                                <div class = "collapse navbar-collapse navHeaderCollapse">
                                
                                          <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif;; font-size:12px;">
                                        
@@ -44,31 +44,31 @@
 
 
                 <div class="location">
-                    <img src="images/product.png">
-                    <h3>BUYING HABITS<h3>
+                    <img src="images/contact.png">
+                    <h3>CONTACT<h3>
 
-                </div>
+    </br></br>
 
-                <div class="bottomicons">
-
-                    <ul>
-
-                    <li><a href="place"><img src="images/location.png"</a></li>
-                    <li><a href="people"><img src="images/people.png"</a></li>
-                    <li><a href="product"><img src="images/product.png"</a></li>
-                    <li><a href="price"><img src="images/price.png"</a></li>
-                    <li><a href="advertising"><img src="images/marketing.png"</a></li>
-
-                    </ul>    
-
-                </div>
+    <div class="contact">
+<!-- Do not change the code! -->
+<a id="foxyform_embed_link_529151" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=529151&sec_hash=dbc2adbebc8&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! -->
 
  
-                <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-                <script src = "js/bootstrap.js"></script>
+               
                
         </body>
 
+                <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src = "js/bootstrap.js"></script>
 
 
 </html>

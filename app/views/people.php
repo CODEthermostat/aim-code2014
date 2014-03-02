@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Bootstrap 3</title>
+                <title>Customers</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/style.css" rel = "stylesheet">
@@ -28,11 +28,11 @@
                                
                                          <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif;; font-size:12px;">
                                        
-                                                <li class = "active" style="text-align:center;"><a href = "#">HOME</a></li>
+                                                <li class = "active" style="text-align:center;"><a href = "place.html">HOME</a></li>
                                                
                                                 </li>
-                                                <li style="text-align:center;"><a href = "#">ABOUT</a></li>
-                                                <li style="text-align:center;"><a href = "#">CONTACT</a></li>
+                                                <li style="text-align:center;"><a href = "about.html">ABOUT</a></li>
+                                                <li style="text-align:center;"><a href = "contact.html">CONTACT</a></li>
                                        
                                         </ul>
                                
@@ -59,7 +59,6 @@
                 <div class="bottomicons">
 
                     <ul>
-
                     <li><a href="place"><img src="images/location.png"</a></li>
                     <li>
                     	@if ($location != null)

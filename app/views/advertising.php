@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>Bootstrap 3</title>
+                <title>Marketing</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/style.css" rel = "stylesheet">
@@ -28,11 +28,11 @@
                                
                                          <ul class = "nav navbar-nav navbar-right" style="font-family:'Josefin Sans', sans-serif;; font-size:12px;">
                                        
-                                                <li class = "active" style="text-align:center;"><a href = "#">HOME</a></li>
+                                                <li class = "active" style="text-align:center;"><a href = "place.html">HOME</a></li>
                                                
                                                 </li>
-                                                <li style="text-align:center;"><a href = "#">ABOUT</a></li>
-                                                <li style="text-align:center;"><a href = "#">CONTACT</a></li>
+                                                <li style="text-align:center;"><a href = "about.html">ABOUT</a></li>
+                                                <li style="text-align:center;"><a href = "contact.html">CONTACT</a></li>
                                        
                                         </ul>
                                
@@ -62,22 +62,11 @@
                 </div>
 
  
+                
+        </body>
+
                 <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
                 <script src = "js/bootstrap.js"></script>
                
-        </body>
-
-
-         <script>
-
-            $('div.ui-page').live("swipeleft", function(){
-            $.mobile.changePage( "people.html", {      
-            transition: "slide", 
-             reverse: false, 
-            changeHash: false,
-            reloadPage: true      
-                });
-            });
-
-            </script>
+      
 </html>
