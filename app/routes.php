@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('api/v1/people/{location?}', array('as' => 'api.people', 'uses' => 'ApiController@getPeople'));
+
 Route::get('/', function()
 {
 	return View::make('hello');
