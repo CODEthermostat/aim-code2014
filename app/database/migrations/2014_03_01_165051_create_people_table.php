@@ -14,9 +14,10 @@ class CreatePeopleTable extends Migration {
 	{
 		Schema::create('people', function($table) {
 			$table->increments('id');
-			$table->string('location')->unique();
+			$table->string('location');
 			$table->string('age');
 			$table->string('gender');
+			$table->integer('value');
 			$table->timestamps();
 		});
 	}

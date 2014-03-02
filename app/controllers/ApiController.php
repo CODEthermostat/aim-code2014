@@ -3,8 +3,20 @@
 class ApiController extends BaseController {
 	
 	public function getPeople($location = null) {
-		//$api_key = "354754be8ab8820dda740c646f8361210f7b25deb1e8cdd586d1359863491eac";
-		People::parseXML();
-	}
+		$postal_code = "/^[ABCEGHJKLMNPRSTVXY]\d[ABCEGHJKLMNPRSTVWXYZ] ?\d[ABCEGHJKLMNPRSTVWXYZ]\d$/";
 
+		$people_json = json_encode(array());
+		$location = strtoupper($location);
+
+		if (preg_match($postal_code, $location)) {
+			$fsa = substr($location, 0, 3);
+			
+			$people = Person::where('location', '=', $fsa)->take(5)->orderBy('value', 'desc')->get();
+			$people_json = json_encode(array('status' => 'success', 'data' => $people->toArray()));
+		} else {
+			$people_json = json_encode(array('status' => 'error', 'data' => 'Incorrect postal code'));
+		}
+
+		return $people_json;
+	}
 }
